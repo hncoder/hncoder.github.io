@@ -1,21 +1,10 @@
 ---
-title: About
+title: 关于
 permalink: about/
 profile: true
 ---
-I am a Software Engineer with strong UI design skills and over 10 years of experience with web technologies and UI development. I enjoy thinking about UX as much as solving difficult technical problems. 
+我是一枚iOS老攻城狮，先后就职过MediaTek，阿里移动事业群（UCWeb），某创业公司。爱好阅读，旅行，写点文字。您可以扫描下方二维码关注我的微信公众号。对移动多媒体领域兴趣较大 
 
-Opinions are my own. Code snippets are open source.
+![qrcode_for_hncoder](https://raw.githubusercontent.com/nickbalestra/kactus/master/assets/images/qrcode_for_hncoder.png)
 
-Follow me on [Github](https://github.com/nickbalestra) and [Twitter](https://twitter.com/nickbalestra)<br>
-Connect on [Linkedin](https://linkedin.com/in/nickbalestra) and [Facebook](https://facebook.com/nickbalestra)<br>
-Write me an [email](mailto:nick@balestra.ch).
-***
-
-#### Site's stack:
-
-Built with [Jekyll](http://jekyllrb.com/).
-<br>Hosted on [Github Pages](https://pages.github.com/).
-<br>Based on my [Kactus](https://github.com/nickbalestra/kactus) theme.
-<br>Feel free to [fork](https://github.com/nickbalestra/nickbalestra.github.io), change, modify and re-use it.
 {% include footer.html %}
