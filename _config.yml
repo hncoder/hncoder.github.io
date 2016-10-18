@@ -1,6 +1,6 @@
-name: Nick Balestra
+name: hncoder
 description: Life is like an npm install.
-meta_description: "Nick Balestra's blog"
+meta_description: "hncoder's blog"
 
 
 markdown: kramdown
@@ -8,13 +8,13 @@ highlighter: rouge
 
 paginate: 50
 baseurl: /
-domain_name: 'http://nick.balestra.ch'
-google_analytics: 'UA-62842593-1'
-disqus_shortname: 'nickbalestra'
+domain_name: 'http://hncoder.com'
+#google_analytics: 'UA-62842593-1'
+disqus_shortname: 'hncoder'
 
 # Details for the RSS feed generator
-url:            'http://nick.balestra.ch'
-author:         'Nick Balestra'
+url:            'http://hncoder.com'
+author:         'hncoder'
 
 permalink:       /:year/:title/
 
