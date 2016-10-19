@@ -647,21 +647,6 @@ h2.month {
 	.post h2 { font-size:20px; }
 }
 
-.social-links {
-  margin-top: 20px; 
-  text-align: center;
-  vertical-align: middle;
-}
-
-.social-links > .link {
-    margin: 0;
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    height: 35px;
-    width: 35px; 
-}
-
 .social {
   padding-top: 12px;
   word-spacing: 25px;
