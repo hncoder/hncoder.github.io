@@ -648,20 +648,21 @@ h2.month {
 }
 
 .social {
-/*
+
   	padding-top: 12px;
+  	/*
   	word-spacing: 25px;
   	*/
-  	background-color: red;
 }
 
 .social h4 {
-  	background-color: blue;
+	/*
   	text-align: center;
+  	*/
 }
 
 .social h4 > a {
   	color: #000000;
-  	padding-left: 10px;
-  	padding-right: 10px;
+  	padding-left: 15px;
+  	padding-right: 15px;
 }
