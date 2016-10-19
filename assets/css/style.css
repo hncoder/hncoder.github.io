@@ -658,6 +658,7 @@ h2.month {
   background-color: blue;
   text-align: center;
   width: auto;
+  -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;
 }
 .social h4 > a {
   color: #000000;
