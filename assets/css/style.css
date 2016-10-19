@@ -658,5 +658,5 @@ h2.month {
 .social h4 > a {
   color: #000000;
   background-color: blue;
-  margin: 0 auto;
+  text-align: center;
 }
