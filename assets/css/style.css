@@ -652,6 +652,7 @@ h2.month {
   word-spacing: 25px;
   background-color: red;
   vertical-align: middle;
+  text-align: center;
   width: %100;
 }
 .social h4 {
@@ -660,6 +661,8 @@ h2.month {
   width: auto;
   -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;
 }
-.social h4 > a {
+.social > a {
   color: #000000;
+  font-size: 15px;
+  font-weight: bold;
 }
