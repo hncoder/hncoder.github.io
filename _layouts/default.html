@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="Nick Balestra" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+
+  <style>
+    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
+    </style>
 </head>
 <body>
 
