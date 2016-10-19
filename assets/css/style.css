@@ -666,6 +666,7 @@ h2.month {
       fill: #4b0082; 
 }
 
+/*
 .social-links > .link:hover:before {
     opacity: 1;
     transform: translate3d(0, 0, 0);
@@ -716,3 +717,4 @@ h2.month {
 .social-links > .icon {
     transition: all ease-in-out 0.2s; 
 }
+*/
