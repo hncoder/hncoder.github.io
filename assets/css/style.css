@@ -658,8 +658,8 @@ h2.month {
     text-decoration: none;
     position: relative;
     display: inline-block;
-    height: 15px;
-    width: 15px; 
+    height: 35px;
+    width: 35px; 
 }
 
 .social-links > .link:hover > .icon {
