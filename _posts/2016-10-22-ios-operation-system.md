@@ -31,6 +31,8 @@ description: 具备对iOS系统较好的全局观，应在三个方面了解清�
 |9.0|iOS|2015年09月|3D Touch<br>Back to App<br>Six-Digit Passcode<br>Low Power mode<br>Battery Widget<br>iCloud Drive App<br>Multitasking on iPad: Slide Over,Split View,Picture-in-Picture<br>Impoved Text Selection<br>Select multiple photos<br>Add and Save Attachment in Mail<br>Draw On Image Attachment<br>Transit Directions<br>Nearby<br>Proactive Assistant<br>Quick Reply to Messaging apps<br>Improved Apps:New app,Notes app|
 |10.0|iOS|2016年09月|Raise to wake<br>Rich lockscreen notifications<br>Clear all notification button<br>Water detection<br>Lockscreen camera and ‘widgets'<br>Graphical 3D Touch shortcuts<br>Siri for developers<br>Siri-influenced Quicktype keykoard<br>Delete default apps<br>Apps in iMessage<br>Photo memories<br>Better maps<br>A new Apple music|
 
+[表格排版风格不友好，可查看Github](https://github.com/hncoder/hncoder.github.io/edit/master/_posts/2016-10-22-ios-operation-system.md)
+
 上述表格中列出的特性仅是一些关键字，若要了解细节，需要去查阅详细的资料。但是，每个版本更新的功能细节很多，尤其是最近几个版本新特性几乎了解不过来，全部搞清楚没有很大必要，而了解每个版本变化关键特性，在大体上把握系统的演进变化比较实际。在iOS的版本演进过程中，功能特性从早期的匮乏到如今的相当丰富，提供的体验也变得越来越人性友好化。以下是我梳理的一些系统变化大体情况：
 
 1. iOS从桌面系统OS X发展而来。
