@@ -4,10 +4,10 @@ date: 2016-10-22
 description: 具备对iOS系统较好的全局观，应在三个方面了解清楚，分别是系统历史版本及其主要特征、系统框架以及系统安全。
 ---
 
-作为一名iOS开发者，我觉得不仅仅只了解开发过程中遇到的某个具体框架，更是要对系统有个较全面的了解。具备对iOS系统较好的全局观，应在三个方面了解清楚，这三个方面分别是系统历史版本及其主要特征、系统框架以及系统安全。  
+作为一名iOS开发者，我觉得不仅仅只了解开发过程中遇到的某个具体框架，更是要对系统有个较全面的了解。具备对iOS较好的全局观，应在三个方面了解清楚，这三个方面分别是系统历史版本及其主要特征、系统框架以及系统安全。  
 
 ## 历史版本及其主要特征  
-众所周知，iOS是苹果开发的一款运行在移动智能设备上的操作系统。它早在苹果发布iPhone SDK（2008年3月6日发布）之前的1.x版本并没有正式名称，当时，苹果对外宣称iPhone是运行在桌面系统OS X的某个版本上，这也就说明iOS源自OS X。随着版本2.0的发布，苹果才取名为iPhone OS。之后发布的几个版本都叫iPhone OS，直到运行在第一代iPad上的3.2发布才更名为iOS。了解iOS历史版本详情，可以查看以下表格。
+众所周知，iOS是苹果开发的一款运行在移动智能设备上的操作系统。它早在苹果发布iPhone SDK（2008年3月6日发布）之前的1.x版本并没有正式名称，当年，苹果对外宣称iPhone是运行在桌面系统OS X的某个版本上，这也就说明iOS源自OS X。随着版本2.0的发布，苹果才取名为iPhone OS。之后经历了几个版本，直到随同第一代iPad一起发布的3.2版本才更名为iOS。了解iOS历史版本时间线，可以查看以下表格。
 
 |版本号 | 命名 | 发布时间 | 特征|
 |----- | ---- | ------ | --- |
@@ -31,7 +31,7 @@ description: 具备对iOS系统较好的全局观，应在三个方面了解清�
 |9.0|iOS|2015年09月|3D Touch<br>Back to App<br>Six-Digit Passcode<br>Low Power mode<br>Battery Widget<br>iCloud Drive App<br>Multitasking on iPad: Slide Over,Split View,Picture-in-Picture<br>Impoved Text Selection<br>Select multiple photos<br>Add and Save Attachment in Mail<br>Draw On Image Attachment<br>Transit Directions<br>Nearby<br>Proactive Assistant<br>Quick Reply to Messaging apps<br>Improved Apps:New app,Notes app|
 |10.0|iOS|2016年09月|Raise to wake<br>Rich lockscreen notifications<br>Clear all notification button<br>Water detection<br>Lockscreen camera and ‘widgets'<br>Graphical 3D Touch shortcuts<br>Siri for developers<br>Siri-influenced Quicktype keykoard<br>Delete default apps<br>Apps in iMessage<br>Photo memories<br>Better maps<br>A new Apple music|
 
-上述表格中列出的特性是一些关键字，若要了解细节，需要根据关键字再去查阅详细的资料。但是，每个版本更新的功能细节很多，尤其是最近几个版本功能点很多，全部搞清楚没有很大必要，而了解每个版本变化关键特性，在大体上把握系统的演进变化即可。在iOS的版本演进过程中，功能特性从早期的匮乏到如今的相当丰富，提供的体验也变得越来越人性友好化。以下是我梳理的一些系统变化情况：
+上述表格中列出的特性仅是一些关键字，若要了解细节，需要去查阅详细的资料。但是，每个版本更新的功能细节很多，尤其是最近几个版本新特性几乎了解不过来，全部搞清楚没有很大必要，而了解每个版本变化关键特性，在大体上把握系统的演进变化比较实际。在iOS的版本演进过程中，功能特性从早期的匮乏到如今的相当丰富，提供的体验也变得越来越人性友好化。以下是我梳理的一些系统变化大体情况：
 
 1. iOS从桌面系统OS X发展而来。
 2. 1.x版本没有正式名称，不同市场上其它智能设备，划时代性的支持全屏幕触摸操作，提供更好用的浏览器，这是早期iPhone在市场上众多智能设备中受欢迎的关键。
