@@ -66,6 +66,6 @@ iOS是苹果开发的移动智能设备操作系统，这个作为开发者无�
 
 [iOS History Wiki](https://en.wikipedia.org/wiki/IOS_version_history)
 
-[iOS Timeline](https://www.theiphonewiki.com/wiki/Timeline)
+[iOS Timeline Wiki](https://www.theiphonewiki.com/wiki/Timeline)
 
 [The Evolution of iOS](http://www.computerworld.com/article/2975868/apple-ios/the-evolution-of-ios.html#slide1)。
