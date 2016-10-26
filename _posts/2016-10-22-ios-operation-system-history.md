@@ -31,7 +31,7 @@ iOS是苹果开发的移动智能设备操作系统，这个作为开发者无�
 |10.0|iOS|2016年09月|Raise to wake<br>Rich lockscreen notifications<br>Clear all notification button<br>Water detection<br>Lockscreen camera and ‘widgets'<br>Graphical 3D Touch shortcuts<br>Siri for developers<br>Siri-influenced Quicktype keykoard<br>Delete default apps<br>Apps in iMessage<br>Photo memories<br>Better maps<br>A new Apple music|
 
 
-[表格排版风格不友好，点击查看Github](https://github.com/hncoder/hncoder.github.io/blob/master/_posts/2016-10-22-ios-operation-system.md)
+[表格排版风格不友好，点击查看Github Page](https://github.com/hncoder/hncoder.github.io/blob/master/_posts/2016-10-22-ios-operation-system-history.md)
 
 上述表格中列出的特性仅是一些关键字，若要了解细节，可以查阅详细的资料。但是，每个版本更新的功能细节很多，尤其是最新几个版本的新特性简直呈井喷态势，全部搞清楚也没有很大必要，而熟悉每个版本变化关键特性，在大体上把握系统的演进变化显得比较实际。在iOS的版本演进过程中，功能特性从早期的匮乏到如今的相当丰富，提供的体验也变得越来越人性友好化，以下是历史系统变化的大体情况：
 
