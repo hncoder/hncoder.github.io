@@ -77,3 +77,5 @@ iOS源自OS X，而OS X也是使用Unix系统内核，因此其目录结构基�
 `Library`：用来存放默认设置或其它状态信息，除Caches子目录之外的文件会被iTunes同步。  
 `Library/Preferences`：使用NSUserDefaults写的设置数据都会保存到该目录下的一个plist文件中，会被iTunes同步。
 `tmp`：用来存放应用再次启动时不需要的临时文件，该目录下的东西随时可能被系统清理掉，不会被iTunes同步。
+
+[查看Github Page](https://github.com/hncoder/hncoder.github.io/blob/master/_posts/2016-10-31-ios-file-system-directories.md)
