@@ -75,9 +75,9 @@ iOS源自OS X，而OS X也是使用Unix系统内核，因此其目录结构基�
 
 ## 应用沙盒目录
 
-下图中红框框住的就是某个应用的沙盒目录，应用只能访问自己沙盒目录里面的文件（某些目录文件在用户授权的情况下可访问，如系统通讯录、照片等媒体文件）。在开发应用中，如果要保存沙盒中某个文件路径，记住不要保存全路径，只能保存在沙盒中的相对路径，要不会导致路径访问错误。这是因为每次编译重新安装应用时，沙盒目录路径会改变。以下是对每个文件夹的作用进行说明：
+下图中红线框就是某个应用的沙盒目录，应用只能访问自己沙盒目录里面的文件（某些目录文件在用户授权的情况下可访问，如系统通讯录、照片等媒体文件）。在应用开发中，如果要保存沙盒中某个文件路径，注意不要保存全路径，只能保存在沙盒中的相对路径，要不会导致路径访问错误。这是因为每次重新编译安装应用时，沙盒目录路径会改变。以下是对每个文件夹的作用进行说明：
 
-![file system](https://raw.githubusercontent.com/hncoder/hncoder.github.io/master/assets/images/ios_file_system_2.png)
+![sandbox](https://raw.githubusercontent.com/hncoder/hncoder.github.io/master/assets/images/ios_file_system_2.png)
 
 `Documents`：用来存放仅限于不可再生的数据文件，会被iTunes同步。  
 `Documents/Inbox`：用来存放由外部应用请求当前应用程序打开的文件，会被iTunes同步。  
