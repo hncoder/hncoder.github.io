@@ -76,7 +76,7 @@ iOS源自OS X，而OS X也是使用Unix系统内核，因此其目录结构基�
 ![file system](https://raw.githubusercontent.com/hncoder/hncoder.github.io/master/assets/images/ios_file_system_2.png)
 
 `Documents`：用来存放仅限于不可再生的数据文件，会被iTunes同步。  
-`Documents/Inbox`：用来保存由外部应用请求当前应用程序打开的文件，会被iTunes同步。  
+`Documents/Inbox`：用来存放由外部应用请求当前应用程序打开的文件，会被iTunes同步。  
 `Library`：用来存放默认设置或其它状态信息，除Caches子目录之外的文件会被iTunes同步。  
 `Library/Preferences`：使用NSUserDefaults写的设置数据都会保存到该目录下的一个plist文件中，会被iTunes同步。  
 `tmp`：用来存放应用再次启动时不需要的临时文件，该目录下的东西随时可能被系统清理掉，不会被iTunes同步。
