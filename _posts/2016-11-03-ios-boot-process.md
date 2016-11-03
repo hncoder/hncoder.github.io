@@ -33,4 +33,4 @@ iBoot才是引导过程中的主加载器，它负责加载操作系统内核。
 内核载入后，将启动第一个程序`launchd`，`launchd`相当于上述Linux系统的`init`程序，然后，由`launchd`启动守护程序和代理程序，直到桌面应用`SpringBoard`运行，系统算启动完成。主流程上和Linux类似，但细节上有很多不同，关于`launchd`启动后的详细情况，见后续梳理。
 
 
-[查看Github Page](https://github.com/hncoder/hncoder.github.io/blob/master/_posts/2013-11-03-ios-boot-process.md)
+[查看Github Page](https://github.com/hncoder/hncoder.github.io/blob/master/_posts/2016-11-03-ios-boot-process.md)
