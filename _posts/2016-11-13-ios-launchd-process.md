@@ -40,7 +40,9 @@ iOS有相当多的守护程序，在众多守护程序当中，很有必要在�
 
 SpringBoard在启动创建桌面UI的时候会枚举/Applications和/var/mobile/Applications目录下所有应用来设置桌面界面上的展现：一是通过应用的Info.plist来确定该应用是否将展现，以及获取其展现的应用图标；二是根据/var/mobile/Library/SpringBoard/IconState.plist文件内容来布局桌面图标。  
 
-如果应用Info.plist文件中存在SBAppTags键并且其数组值中包含`hidden`项，表示应用已被设置为隐藏状态，那么其图标将不在桌面上出现。被隐藏起来的系统应用有DemoApp.app、iOS Diagnostics.app、Field Test.app、Setup.app以及TrustMe.app。除了默认隐藏的系统应用，能否隐藏App Store下载应用呢？这就只能通过越狱设备，并编辑相应应用的Info.plist文件，添加SBAppTags键将其数组值里添加hidden项，才能达到目的。要取消应用隐藏，则去掉SBAppTags键即可。
+如果应用Info.plist文件中存在SBAppTags键并且其数组值中包含`hidden`项，表示应用已被设置为隐藏状态，那么其图标将不在桌面上出现。被隐藏起来的系统应用有DemoApp.app、iOS Diagnostics.app、Field Test.app、Setup.app以及TrustMe.app。
+
+除了默认隐藏的系统应用，能否隐藏App Store下载应用呢？这就只能通过越狱设备，并编辑相应应用的Info.plist文件，添加SBAppTags键将其数组值里添加hidden项，才能达到目的。要取消应用隐藏，则去掉SBAppTags键即可。
 
 另外，上述的应用图标是根据Info.plist中的CFBundleIcons属性来获取的；用户在桌面上改变了应用位置或新建了一个分组，都将修改重新保存IconState.plist属性文件。  
 
