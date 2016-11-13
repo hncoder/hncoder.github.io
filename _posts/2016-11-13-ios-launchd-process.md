@@ -39,7 +39,7 @@ launchd由操作系统内核启动，用户没有权限去进行手动启动，�
 |退出时重启服务|init识别/etc/inittab中用于重启服务的respawn关键词。|允许守护程序或代理程序的属性列表中指定KeepAlive键。|
 |默认用户|root|root，但是launchd允许在属性列表指定username键。|
 
-
+<br/>
 iOS有相当多的守护程序，在众多守护程序当中，很有必要在这讲下的是和我们紧密相关的GUI Shell。在OS X中，它是Finder，在iOS中对应的是SpringBoard。它是用户和设备交互的第一个程序，也是用户看到的第一个图形界面程序（不考虑首次打开设备后的设置引导界面）。它的程序包放在/System/Library/CoreServices目录下。那么SpringBoard启动做了哪些事呢？  
 
 SpringBoard在启动创建桌面UI的时候会枚举/Applications和/var/mobile/Applications目录下所有应用来设置桌面界面上的展现：一是通过应用的Info.plist来确定该应用是否将展现，以及获取其展现的应用图标；二是根据/var/mobile/Library/SpringBoard/IconState.plist文件内容来布局桌面图标。  
