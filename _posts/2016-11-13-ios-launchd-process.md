@@ -23,7 +23,7 @@ launchd由操作系统内核启动，用户没有权限去进行手动启动，�
 |/Library/LaunchAgents|存放第三方程序的代理程序plist文件，通常为空|
 |~/Library/LaunchAgents|用户自有的launch代理程序，只有对应的用户才会执行。|
 
-在iOS中由于不支持用户登录的概念，因此，iOS中LaunchAgents文件夹是空的。同时，如果有越狱设备，可以尝试将LaunchDaemons中某个不太重要的守护程序plist文件删除，再次启动系统，这个守护程序就不会被启动了。这点在《iOS之文件系统目录结构》中也有提到。  
+如果有越狱设备，可以尝试将LaunchDaemons中某个不太重要的守护程序plist文件删除，再次启动系统，这个守护程序就不会被启动了。这点在《iOS之文件系统目录结构》中也有提到。  
 
 前面讲到，launchd相当于传统Unix（Linux）中的init，但实际上在iOS/OS X中launchd除了承担init的职责外还负责了其它很多事情，这里不多赘述。并且，就init职责这部分，也还是有差别。具体可以参考以下对照表格：
 
