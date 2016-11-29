@@ -6,7 +6,7 @@ description: 结合项目实情，将MVVM演化为MVVM+Manager模式。
 
 我司产品属于初创项目，早期业务相对简单，最初项目中采用了简单的MVC设计模式。然而随着业务逻辑增多，某些Controller变得十分臃肿。众所周知，MVVM模式解决了Controller的臃肿并方便单元测试，为了方便后续代码维护，在上版本新功能开发中，项目开始使用[MVVM模式](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction)进行开发。   
 
-![](../img/MVVM.png) 
+![](https://raw.githubusercontent.com/hncoder/hncoder.github.io/master/assets/images/MVVM.png) 
 
 但从上图可以看出，MVVM模式中，Controller即便清爽了，但无疑是将臃肿的代码移到了ViewModel中。  
 上述上个版本中所开发的新功能为“爱疯抢”，从业务交互及界面状态展现来看，有多个界面存在相同的业务交互和元素展现，比如正在疯抢列表、疯抢商品详情、我关注的疯抢、我参与的疯抢等等，这些界面都存在抢拍、提醒、取消提醒、关注、取消关注、购买、支付已抢拍成功商品等业务交互，同时按钮展现（抢拍、提醒等状态切换）及时间展现（抢拍开始时间、抢拍中倒计时、下次抢拍时间）等展示逻辑也无差别。  
@@ -16,9 +16,9 @@ description: 结合项目实情，将MVVM演化为MVVM+Manager模式。
 ​这样，不同展现逻辑但具有相同业务交互逻辑的界面即可使用不同的ViewModel而共用同一个Manager了，满足了一份业务交互逻辑代码可以多处使用、多处组装，在一定程度上不仅降低了开发工作量，同时增强了代码的可维护性。    
 我将这种演化后的模式称为MVVM+Manager模式，简称为MVVMM。Manager既然负责业务交互逻辑，这其中的业务就少不了和服务器交互、和本地数据交互等，因此，MVVMM模式的示意图可以定义为如下所示：  
 
-![](../img/MVVMM.png) 
+![](https://raw.githubusercontent.com/hncoder/hncoder.github.io/master/assets/images/MVVMM.png) 
 
-为了更具体说明MVVMM模式各个部分职责，我写了一个简明的逻辑描述[Demo](https://github.com/peterlogme/MVVMM.git)供参考。  
+为了更具体说明MVVMM模式各个部分职责，我写了一个简明的逻辑描述[Demo](https://github.com/hncoder/MVVMM.git)供参考。  
 对于复杂的功能模块，ViewModel仍然显得很臃肿的话，可继续将其职责再细化，例如将网络请求逻辑也从ViewModel中抽离出来单独成为一个处理类，类似猿题库中即使用单独的DataController类来负责网络数据请求，详情可以参考[博文](http://gracelancy.com/blog/2016/01/06/ape-ios-arch-design/)。
 上述有不足或疑问之处请留言交流。  
 **MVVMM Demo**：  
