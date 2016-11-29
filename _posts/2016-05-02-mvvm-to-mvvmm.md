@@ -21,7 +21,7 @@ description: 结合项目实情，将MVVM演化为MVVM+Manager模式。
 为了更具体说明MVVMM模式各个部分职责，我写了一个简明的逻辑描述[Demo](https://github.com/hncoder/MVVMM.git)供参考。  
 对于复杂的功能模块，ViewModel仍然显得很臃肿的话，可继续将其职责再细化，例如将网络请求逻辑也从ViewModel中抽离出来单独成为一个处理类，类似猿题库中即使用单独的DataController类来负责网络数据请求，详情可以参考[博文](http://gracelancy.com/blog/2016/01/06/ape-ios-arch-design/)。 
 **MVVMM Demo**：  
-https://github.com/peterlogme/MVVMM.git  
+https://github.com/hncoder/MVVMM.git  
 参考：  
 MVVM模式：  
 http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction  
