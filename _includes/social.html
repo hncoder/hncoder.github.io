@@ -1,6 +1,8 @@
 <div class="social">
 	<h4>
-    <a href="{{ site.baseurl }}"><i class="fa fa-home"></i></a>
+    {% if site.jianshu %}
+	  <a href="http://www.jianshu.com/u/{{ site.jianshu }}"><i class="fa fa-home"></i></a>
+    {% endif %}
     {% if site.github %}
 	  <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
     {% endif %}
@@ -17,8 +19,6 @@
     {% if site.stackoverflow %}
 	  <a href="https://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
     {% endif %}
-    {% if site.jianshu %}
-	  <a href="http://www.jianshu.com/u/{{ site.jianshu }}"><i class="fa fa-link"></i></a>
-    {% endif %}
+    
 	</h4>
 </div>
